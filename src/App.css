@@ -1,0 +1,87 @@
+.App {
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    width: 50%;
+    padding: 16px;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: #10807b;
+}
+
+.anagram {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: white
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.anagram:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.Cookly-logo {
+    width: 30%;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
